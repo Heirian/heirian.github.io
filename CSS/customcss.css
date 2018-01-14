@@ -1,0 +1,70 @@
+/* CUSTOM CSS */
+body {
+	margin-top: 1cm;
+}
+.headerspace {
+	margin-bottom: 1cm;
+}
+.titlespace {
+	margin-bottom: 0.1cm;
+}
+.perfilimg {
+	border-radius: 50%;
+	height: 200px;
+	weight: 200px;
+	box-shadow: 1px 1px 1px 1px grey;
+}
+a {
+	color: DarkSlateGray;
+}
+p {
+	margin-bottom: 0;
+	margin-top: 0
+}
+.frog {
+	margin-left: 0.4cm;
+	border-radius: 50%;
+	height: 75px;
+	weight: 75px;
+	box-shadow: 0.1px 0.1px 0.1px 0.1px grey;
+}
+.fixfloater {
+	float:left
+}
+.hello {
+	font-size: 40px;
+	font-family: bungee
+}
+.bruno {
+	font-size: 50px;
+	font-family: bungee
+}
+.myname {
+	font-size: 30px;
+	font-family: ewert
+}
+.softdeve {
+	font-size: 28px;
+	font-family: fascinate
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.parrot {
+	margin-left: 0.4cm;
+	height: 75px;
+	weight: 75px
+}
+.mantra {
+	color: white
+}
+.ajust-buttons-footer {
+	margin-left: 3%;
+}
