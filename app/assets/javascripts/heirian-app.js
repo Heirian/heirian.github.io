@@ -3,7 +3,7 @@ var app = angular.module('HeirianApp', ['ngRoute']);
 app.config(function ($routeProvider) {
   $routeProvider
   	.when('/', {
-    title: 'A Programmer personal page',
+    title: 'Home',
     controller: 'HomeController',
     templateUrl: 'app/views/home.html'
   })
@@ -18,6 +18,7 @@ app.config(function ($routeProvider) {
 });
 
 app.run(['$rootScope', function($rootScope) {
+  $rootScope.siteName = 'A Programmer personal page';
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     $rootScope.title = current.$$route.title;
   });
