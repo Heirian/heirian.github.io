@@ -15,12 +15,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
-		<title>A Programmer personal page</title>
+		<title>{{ title }}</title>
 		<link rel="icon" type="image/png" href="app/assets/images/meusapo.png" />
 
 	</head>
 
-	<body>
+	<body ng-app="HeirianApp">
 		<div class="container-fluid headerspace">
 			<h1 class="text-center headerspace"><b>A Programmer personal page
 			</b></h1>
@@ -136,5 +136,8 @@
 			<p class="text-center text-muted">Copyright Bruno Teófilo 2017. All Rights Reserved
 			</p>
 		</footer>
+
+    <script src="app/assets/javascripts/heirian-app.js"></script>
+    <script src="app/assets/javascripts/controllers/homecontroller.js"></script>
 	</body>
 </html>
