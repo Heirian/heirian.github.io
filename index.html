@@ -4,27 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="app/assets/stylesheets/customcss.css" rel="stylesheet">
-
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
     <title ng-bind=" title + ' &mdash; ' + siteName"></title>
     <link rel="icon" type="image/png" href="app/assets/images/meusapo.png" />
-
   </head>
 
   <body>
     <div ng-include="'app/views/shared/header.html'"></div>
     <div ng-view></div>
     <div ng-include="'app/views/shared/footer.html'"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
     <script src="app/assets/javascripts/heirian-app.js"></script>
     <div ng-include="'app/views/shared/controllers.html'"></div>
+    <div ng-include="'app/views/shared/assets.html'"></div>
   </body>
 </html>
