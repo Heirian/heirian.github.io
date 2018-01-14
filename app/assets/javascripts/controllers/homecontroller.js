@@ -1,3 +1,3 @@
 app.controller('HomeController', ['$scope' function($scope) {
-$scope.title = 'A Programmer personal page'
+  $scope.title = 'A Programmer personal page'
 }]);
