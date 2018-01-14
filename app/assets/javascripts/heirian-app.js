@@ -29,11 +29,11 @@ app.config(function ($routeProvider) {
 
 app.run(['$rootScope', function($rootScope) {
   $rootScope.siteName = 'A Programmer personal page';
-  $rootScope.homeTitle = 'Home'
-  $rootScope.skillsTitle = 'Skills'
-  $rootScope.projectsTitle = 'Projects'
-  $rootScope.blogTitle = 'Blog'
-  $rootScope.contactTitle = 'Contact'
+  $rootScope.homeTitle = 'Home';
+  $rootScope.skillsTitle = 'Skills';
+  $rootScope.projectsTitle = 'Projects';
+  $rootScope.blogTitle = 'Blog';
+  $rootScope.contactTitle = 'Contact';
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     $rootScope.title = current.$$route.title;
   });

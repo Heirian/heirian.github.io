@@ -1,3 +1,2 @@
-app.controller('SkillsController', ['$scope', '$rootScope', function($scope, $rootScope) {
-  $rootScope.title = $rootScope.skillsTitle
+app.controller('SkillsController', ['$scope', function($scope) {
 }]);
