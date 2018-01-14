@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-US" ng-app="HeirianApp">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
 
-		<link href="app/assets/stylesheets/customcss.css" rel="stylesheet">
+    <link href="app/assets/stylesheets/customcss.css" rel="stylesheet">
 
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ewert" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
-		<title ng-bind=" title + ' &mdash; ' + siteName"></title>
-		<link rel="icon" type="image/png" href="app/assets/images/meusapo.png" />
+    <title ng-bind=" title + ' &mdash; ' + siteName"></title>
+    <link rel="icon" type="image/png" href="app/assets/images/meusapo.png" />
 
-	</head>
+  </head>
 
-	<body>
+  <body>
     <div ng-include="'app/views/shared/header.html'"></div>
     <div ng-view></div>
-
-		<h6 class="text-center headerspace mantra"><b>I'm one with the force and the force is with me
-			</b></h6>
-		<footer>
-			<div class="row ajust-buttons-footer">
-				<div class="col-xs-1 col-lg-3"></div>
-				<div class="col-xs-2 col-lg-2"><a href="https://www.facebook.com/heirian" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span>Facebook</span></a></div>
-				<div class="col-xs-2 col-lg-2"><a href="https://github.com/Heirian" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span>Github</span></a></div>
-				<div class="col-xs-2 col-lg-2"><a href="https://www.linkedin.com/in/bruno-te%C3%B3filo-domingos-silva-ab2271142/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span>Linkedin</span></a></div>
-			</div>
-			<p class="text-center text-muted">Copyright Bruno Teófilo 2017. All Rights Reserved
-			</p>
-		</footer>
-
+    <div ng-include="'app/views/shared/footer.html'"></div>
     <script src="app/assets/javascripts/heirian-app.js"></script>
-    <script src="app/assets/javascripts/controllers/homecontroller.js"></script>
-	</body>
+    <div ng-include="'app/views/shared/controllers.html'"></div>
+  </body>
 </html>
