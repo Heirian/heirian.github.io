@@ -1,9 +1,19 @@
-<nav class="navbar fixed-top navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <a class="navbar-brand" href="/">
     <img src="app/assets/images/meusapo.png" width="30" height="30" class="d-inline-block align-top" alt="">
     {{ siteName }}
   </a>
-  <div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <span class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <div class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0 btn-group">
+      <a class="btn btn-outline-light" href="#/!">{{ homeTitle}}</a>
+      <a class="btn btn-outline-light" href="#!skills">{{ skillsTitle }}</a>
+      <a class="btn btn-outline-light" href="#!projects">{{ projectsTitle }}</a>
+      <a class="btn btn-outline-light" href="#!contact">{{ contactTitle }}</a>
+      <a class="btn btn-outline-light" href="/blog">{{ blogTitle }}</a>
+    </div>
     <a href="https://www.facebook.com/heirian">
       <span class="fa-stack fa-lg">
         <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
@@ -28,13 +38,6 @@
         <i class="fa fa-envelope fa-stack-1x"></i>
       </span>
     </a>
-  </div>
-  <form class="form-inline btn-group">
-      <a role='button' class="btn btn-outline-light" href="#/!">{{ homeTitle}}</button>
-      <a role='button' class="btn btn-outline-light" href="#!skills">{{ skillsTitle }}</button>
-      <a role='button' class="btn btn-outline-light" href="#!projects">{{ projectsTitle }}</button>
-      <a role='button' class="btn btn-outline-light" href="#!contact">{{ contactTitle }}</button>
-      <a role='button' class="btn btn-outline-light" href="/blog">{{ blogTitle }}</button>
-  </form>
+  </span>
 </nav>
 <br><br><br>
