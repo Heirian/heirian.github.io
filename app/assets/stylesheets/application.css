@@ -1,17 +1,20 @@
 /* CUSTOM CSS */
-.headerspace {
-	margin-bottom: 1cm;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.titlespace {
-	margin-bottom: 0.1cm;
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
 }
 
-.perfilimg {
-	border-radius: 50%;
-	height: 200px;
-	weight: 200px;
-	box-shadow: 1px 1px 1px 1px grey;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
 }
 
 a {
@@ -21,6 +24,21 @@ a {
 p {
 	margin-bottom: 0;
 	margin-top: 0
+}
+
+.headerspace {
+	margin-bottom: 1cm;
+}
+
+.titlespace {
+	margin-bottom: 0.1cm;
+}
+
+.perfil {
+	border-radius: 50%;
+	height: 200px;
+	weight: 200px;
+	box-shadow: 1px 1px 1px 1px grey;
 }
 
 .frog {
@@ -75,22 +93,4 @@ p {
 
 .mantra {
 	color: white
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 40px;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 40px;
 }
