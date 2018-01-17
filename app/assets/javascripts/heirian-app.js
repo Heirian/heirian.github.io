@@ -7,6 +7,11 @@ app.config(function ($routeProvider) {
     controller: 'HomeController',
     templateUrl: 'app/views/home.html'
   })
+  .when('/about', {
+    title: 'About',
+    controller: 'AboutController',
+    templateUrl: 'app/views/about.html'
+  })
   .when('/skills', {
     title: 'Skills',
     controller: 'SkillsController',
@@ -30,6 +35,7 @@ app.config(function ($routeProvider) {
 app.run(['$rootScope', function($rootScope) {
   $rootScope.siteName = 'A Programmer personal page';
   $rootScope.homeTitle = 'Home';
+  $rootScope.aboutTitle = 'About';
   $rootScope.skillsTitle = 'Skills';
   $rootScope.projectsTitle = 'Projects';
   $rootScope.blogTitle = 'Blog';
