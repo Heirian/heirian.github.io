@@ -34,8 +34,7 @@ p {
 	margin-bottom: 0.1cm;
 }
 
-.perfil {
-	border-radius: 50%;
+.perfil-image {
 	height: 200px;
 	weight: 200px;
 	box-shadow: 1px 1px 1px 1px grey;
