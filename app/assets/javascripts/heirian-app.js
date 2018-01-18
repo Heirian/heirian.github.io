@@ -40,6 +40,7 @@ app.run(['$rootScope', function($rootScope) {
   $rootScope.projectsTitle = 'Projects';
   $rootScope.blogTitle = 'Blog';
   $rootScope.contactTitle = 'Contact';
+  $rootScope.date = new Date();
   $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
     $rootScope.title = current.$$route.title;
   });
