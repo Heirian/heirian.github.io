@@ -34,10 +34,10 @@ p {
 	margin-bottom: 0.1cm;
 }
 
-.perfil {
-	border-radius: 50%;
-	height: 200px;
-	weight: 200px;
+.profile-img {
+  margin-top: -100px;
+	height: 150px;
+	weight: 150px;
 	box-shadow: 1px 1px 1px 1px grey;
 }
 
@@ -54,22 +54,22 @@ p {
 }
 
 .hello {
-	font-size: 40px;
+	font-size: 20px;
 	font-family: bungee
 }
 
 .bruno {
-	font-size: 50px;
+	font-size: 25px;
 	font-family: bungee
 }
 
 .myname {
-	font-size: 30px;
+	font-size: 20px;
 	font-family: ewert
 }
 
 .softdeve {
-	font-size: 28px;
+	font-size: 15px;
 	font-family: fascinate
 }
 
