@@ -6,21 +6,22 @@
       body {
         background-color: #0066ff;
       }
-
-      /* IE10 */
-      @media all and (-ms-high-contrast:none) {
-        body {
-          background-color: #000000;
-        }
-      }
-
-      /* IE8 */
-      @media all\0 {
+    </style>
+    <!--[if IE 8]>
+      <style>
         body {
           background-color: #00ff55;
         }
-      }
-    </style>
+      </style>
+    <![endif]-->
+
+    <!--[if IE 10]>
+      <style>
+        body {
+          background-color: #000000;
+        }
+      </style>
+    <![endif]-->
   </head>
   <body></body>
 </html>
